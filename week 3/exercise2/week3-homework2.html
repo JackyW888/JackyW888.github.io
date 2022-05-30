@@ -22,31 +22,30 @@
             /* Target those elements containing class (dot) called 'container' */
             display: flex;
             /* This is the magic to make the 2 div align horizontally */
-            height: 80vh;
-            /* 80% height of the full page */
         }
 
-        .container .box {
-            /* All the .box under .container */
-            width: 50%;
-            /* Each column would takes up 50%, so equally sharing spaces left and right */
-
-            display: flex;
-            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-            align-items: center;
-            /* vertically center */
+        .box1{
+            text-align: center;
+            width: 40%;
+            height: 50%;
+            padding: 50px;
+            margin-top: 120px;
         }
 
-        .box div {
-            /* All the div under .box */
-            width: 100%;
+        .box2{
+            text-align: center;
+            width: 40%;
+            height: 50%;
+            padding: 50px;
+            margin-top: 120px;
         }
 
-        #box2 {
-            text-align: right;
-            background-image: url("images/unsplash.jpg");
-            background-size: cover;
-            background-position: center center;
+        .box3{
+            text-align: center;
+            width: 40%;
+            height: 50%;
+            padding: 50px;
+            margin-top: 120px;
         }
 
         h1 {
@@ -58,13 +57,19 @@
             width: 40%;
             height: 90%;
         }
+
+        .word{
+            font-size: 1.1vw;
+        }
+
+        
     </style>
     <!-- this is HTML Comment 
          The 2 lines below is to install Google Fonts. 
          For all font in your homeworks, use Lato (as above)
         -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300,900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -73,8 +78,19 @@
         <h1>CUSTOMER REVIEWS</h1>
     </div>
     <div class="container">
-        <div id="box1" class="box">
-            
+        <div class="box1">
+            <img src="../images/hw2_1.png">
+            <h3>Murielle Blake</h3> <span class="word"><p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers <br>to try your services.</p></span>
+        </div>
+
+        <div class="box2">
+            <img src="../images/hw2_2.png">
+            <h3>Inna Tran</h3><span class="word"><p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers <br>to try your services.</p></span>
+        </div>
+
+        <div class="box3">
+            <img src="../images/hw2_3.png">
+            <h3>Clyde Meily</h3><span class="word"><p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers <br>to try your services.</p></span>
         </div>
         
     </div>
