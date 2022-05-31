@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 3 Sample</title>
+    <style>
+        body {
+            background-color: #0F0E0C;
+            font-family: 'Lato', sans-serif;
+            /* If Lato not available, use sans-serif */
+            font-size: 3vw;
+            /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
+        }
+
+        .container {
+            /* Target those elements containing class (dot) called 'container' */
+            display: flex;
+        }
+
+        .box1 {
+            border: 3px solid #EEECE0;
+            border-style: none solid;
+            text-align: center;
+            width: 40%;
+            height: 50%;
+            padding: 40px;
+            margin:70px;
+        }
+
+        .foto {
+            display: block;
+            width:40%;
+            float:right;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:70px;
+            border:3px solid #EEECE0;
+            border-style: none solid none none;
+            height:50%;
+        }
+
+        .word {
+            color:#EEECE0;
+            padding: 25px;
+            font-weight: 900;
+        }
+
+        .word2{
+            color:#EEECE0;
+            padding:10px;
+            font-weight:100;
+            font-size: 30px;
+        }
+    </style>
+    <!-- this is HTML Comment 
+         The 2 lines below is to install Google Fonts. 
+         For all font in your homeworks, use Lato (as above)
+        -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box1">
+            <div class="word">Who We Are <br> <span class="word2">Mimtmade Online offers a well-curated range of fashion items for men and women.</span> <br><br> <span class="word2">We aim to provide an enjoyable shopping experience for all our customers.</span></div>
+        </div>
+        <div class="foto">
+            <div><img src="../images/hw4.png"></div>
+        </div>
+    </div>
+</body>
+
+</html>
