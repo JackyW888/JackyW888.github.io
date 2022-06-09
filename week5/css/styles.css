@@ -1,0 +1,88 @@
+#container {
+    background-color: rgb(143, 142, 142);
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 50px;
+    line-height: 5px;
+    color: aliceblue;
+    background-image: url("../image/headbg.png");
+    background-size: cover;
+}
+
+/* The navbar container */
+.topnav {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    /*justify-content: center*/
+    ;
+    /*flex-direction: row-reverse;*/
+    /*flex-wrap: wrap;*/
+}
+
+.righticon {
+    display: flex;
+
+
+}
+
+/* Navbar links */
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /*width:200px;*/
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+/* Row */
+.row {
+    display: flex;
+    background-color: beige;
+}
+
+/* Column */
+.column {
+    width: 33.33%;
+    text-align: center;
+    border: solid 1px;
+}
+
+#column1 {
+    width: 100%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .row {
+        display: block;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+
+.footer {
+    background-color: #F1F1F1;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
