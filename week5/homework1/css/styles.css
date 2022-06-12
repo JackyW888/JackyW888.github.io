@@ -119,3 +119,29 @@
     padding: 20px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 600px) {
+    .feat{
+        display: block;
+    }
+
+    .feat1 {
+        width:80%;
+        margin-top: 20px;
+    }
+
+    .feat2 {
+        width:80%;
+        margin-top: 20px;
+    }
+
+    .feat3 {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .feat4 {
+        width:80%;
+        margin-top: 20px;
+    }
+}
