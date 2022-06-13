@@ -87,7 +87,6 @@
     background-color:aliceblue;
     display: flex;
     padding: 20px;
-    justify-content: space-between;
 }
 
 @media screen and (max-width: 600px) {
