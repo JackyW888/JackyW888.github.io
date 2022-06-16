@@ -25,11 +25,27 @@
 }
 
 .menu {
-    text-align: center;
-    padding:20px;
+    display: flex;
+    justify-content: space-between;
     background-color: aliceblue;
     margin-top: 20px;
 }
+
+.menu a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /*width:200px;*/
+}
+
+/* Links - change color on hover */
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
 
 .imgslds {
     background-color:aliceblue;
