@@ -1,0 +1,47 @@
+.item1 { 
+    grid-area: logo;
+}
+.item2 { 
+    grid-area: phnum;
+    height: 80px;
+}
+.item3 { 
+    grid-area: mn;
+    height: 80px;
+}
+.item4 { 
+    grid-area: imageslide;
+    height: 80px;
+}
+.item5 { 
+    grid-area: text-content;
+    height: 80px;
+}
+.item6 { 
+    grid-area: sidebar;
+    height: 80px;
+}
+.item7 { 
+    grid-area: footer;
+    height: 80px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'logo logo logo phnum phnum phnum phnum phnum'
+    'logo logo logo mn mn mn mn mn'
+    'imageslide imageslide imageslide imageslide imageslide imageslide imageslide imageslide'
+    'text-content text-content text-content text-content text-content sidebar sidebar sidebar'
+    'footer footer footer footer footer footer footer footer';
+    gap:10px;
+    background-color: blue;
+    padding: 10px;
+}
+
+.grid-container >div {
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+   
+}

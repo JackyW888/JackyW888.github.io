@@ -1,0 +1,33 @@
+.item1 { grid-area: logo;}
+.item2 { grid-area: phnum;}
+.item3 { grid-area: menu;}
+.item4 { grid-area: imageslide;}
+.item5 { grid-area: feat1;}
+.item6 { grid-area: feat2;}
+.item7 { grid-area: feat3;}
+.iten8 { grid-area: feat4;}
+.item9 { grid-area: text-content;}
+.item10 { grid-area: sidebar;}
+.item11 { grid-area: footer;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'logo logo logo phnum phnum phnum phnum phnum'
+    'logo logo logo phnum phnum phnum phnum phnum'
+    'menu menu menu menu menu menu menu menu'
+    'imageslide imageslide imageslide imageslide imageslide imageslide imageslide imageslide'
+    'feat1 feat1 feat2 feat2 feat3 feat3 feat4 feat4'
+    'text-content text-content text-content text-content text-content sidebar sidebar sidebar'
+    'footer footer footer footer footer footer footer footer';
+    gap:10px;
+    background-color: blue;
+    padding: 10px;
+}
+
+.grid-container >div {
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    height: 80px;
+}
