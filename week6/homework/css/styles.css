@@ -1,5 +1,6 @@
 .container {
     position:relative;
+    margin-left: 30px;
 }
 
 /*background image*/
@@ -17,6 +18,7 @@
 
 .logo {
     display: flex;
+    align-items: center;
 }
 
 .logo p {
@@ -44,18 +46,33 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width: 850px) {
+    .top {
+        align-items: center;
+    }
+
+    .firstpage {
+        background: none;
+    }
+
+    .topnav a{
+        color:black;
+    }
+}
+
 /*pages 1 content*/
 .box1 {
     display: flex;
     margin-top: 20px;
+    margin-left: 30px;
 }
 
 .sidebar {
     padding:10px;
-    width:10%;
-    display:flex ;
-    flex-direction: column;
-    margin-top: 30%;
+    position:fixed;
+    left:0;
+    top:200px;
+    background-color: white;
 }
 
 .sidebarsize {
@@ -66,6 +83,7 @@
     width: 45%;
     margin-top: 20vh;
     font-family: 'Lato', sans-serif;
+    align-items: center;
 }
 
 .social {
@@ -104,7 +122,7 @@
 }
 
 .image1 {
-    width: 50%;
+    width: 45%;
 }
 
 .mouse{
@@ -116,19 +134,6 @@
     padding: 10px 12px;
     cursor:pointer;
     left: 48%;
-}
-
-
-
-@media screen and (max-width: 850px) {
-    .box1 {
-        flex-wrap:wrap ;
-    }
-
-    .word1 {
-        width: 80%;
-        text-align: center;
-    }
 }
 
 .secondpage {
@@ -189,6 +194,22 @@
     }
 }
 
+@media screen and (max-width: 850px) {
+    .box1 {
+        flex-wrap:wrap;
+    }
+
+    .word1 {
+        width: 100%;
+        margin-top:10vh;
+    }
+
+    .image1 {
+        margin-top: 50px;
+    }
+
+}
+
 
 /*page 3 contant*/
 .box2 {
@@ -203,8 +224,7 @@
 
 .page3box1 {
     display:flex;
-    justify-content: space-around;
-    position: relative;
+    flex-wrap: wrap;
 }
 
 .page3box1 .button{
@@ -219,7 +239,7 @@
     margin: 4px 2px;
     position:absolute;
     right:10px;
-    bottom: 30px
+    bottom: 30px;
 }
 
 .page3box1 .button:hover {
@@ -230,7 +250,7 @@
 .offer-box {
     margin: 10px 30px 30px 20px;
     padding: 30px;
-    width: 18%;
+    width: 25%;
     height: 500px;
     border: rgb(255, 255, 255) solid 4px;
     cursor: pointer;
@@ -240,51 +260,12 @@
     position: relative;
 }
 
-
-.page3box2 {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-}
-
-.page3box2 .button{
-    background-image: linear-gradient(90deg, #1A129F, #2E25B8, #5046E3);
-    border: none;
-    border-radius: 60px;
-    color: white;
-    padding: 15px 60px;
-    text-align: center;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px;
-    position:absolute;
-    right:10px;
-    bottom: 30px;
-}
-
-
-.page3box2 .button:hover {
-    background-color: yellow;
-    color: black;
-}
-
 @media screen and (max-width: 850px) {
-    .page3box1 {
-        display:block;
-    }
+
 
     .offer-box {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .page3box2 {
-        display:block;
-    }
-
-    .offer-box {
-        width: 80%;
+        width: 30%;
+        height: 600px;
     }
 }
 
@@ -350,7 +331,7 @@
     }
 
     .box3 {
-        height: 150vh;
+        height: 170vh;
     }
 }
 
