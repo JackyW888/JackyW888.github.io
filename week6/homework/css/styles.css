@@ -294,16 +294,28 @@
     position: relative;
 }
 
+.offer-box img {
+    width: 100px;
+    margin-left: 37%;
+    
+}
+
 @media screen and (max-width: 850px) {
 
 
     .offer-box {
         width: 30%;
-        height: 650px;
+        height: 530px;
+    }
+
+    .offer-box img {
+        width: 100px;
+        margin-left: 25%;
+        
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
 
 
     .offer-box {
