@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #678a75;
+}
+
+.box1 {
+    display:flex;
+}
+
+form {
+    width: 50vw;
+    background-color: #ddf4ee;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 2px;
+    display: inline-block;
+    border: 1px solid #375B44;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.box2 {
+    width: 50%;
+}
+
+.box3 {
+    width: 50%;
+    margin-left: 10px;
+}
+
+input[type=submit]{
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 8px 2px;
+    border: 1px solid #23622b;
+    background-color: #23622b;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.submit {
+    text-align: center;
+}
+
+legend {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
