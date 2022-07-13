@@ -180,6 +180,13 @@ i {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .contant1 {
+        margin-left: 0px;
+        width: 30%;
+    }
+}
+
 /*page 1 box 2*/
 .box2 {
     height:1300px;
