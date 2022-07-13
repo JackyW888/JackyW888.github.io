@@ -156,7 +156,6 @@ i {
 
 .contant1 {
     width: 80%;
-    border:solid #ffffff;
     margin-left: 120px;
     padding:20px;
     margin-top: 80px;
@@ -180,11 +179,23 @@ i {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .contant1 {
+        margin-left: 0;
+        font-size: 5vw;
+        width: 75%;
+    }
+
+    .box1 {
+        height: 1000px;
+    }
+}
+
+
 /*page 1 box 2*/
 .box2 {
     height:1300px;
     margin-top: 10px;
-    border:solid;
 }
 
 
@@ -257,7 +268,6 @@ i {
 
 .exe {
     width: 45%;
-    border:solid;
     background-color: #6E85B7;
     padding:30px;
     display: flex;
@@ -270,6 +280,55 @@ i {
     border-radius: 50%;
     padding:30px;
 }
+
+@media screen and (max-width: 600px) {
+    .mypicture img {
+        width: 100%;
+    }
+
+    .contant2 {
+        display: block;
+    }
+
+    .mypicture {
+        width: 100%;
+    }
+    
+    .myintro {
+        width: 100%;
+    }
+
+    .box2 {
+        height: 1800px;
+    }
+
+    .expbox {
+        display: block;
+        padding:20px;
+    }
+
+    .years {
+        width: 85%;
+        padding:30px;
+    }
+
+    .exe {
+        width: 85%;
+    }
+
+    .expcontant {
+        font-size: 5vw;
+    }
+
+    .years h3 {
+        font-size: 8vw;
+    }
+
+    .exe h3 {
+        font-size: 8vw;
+    }
+}
+
 
 /*page 1 box 3*/
 
@@ -352,6 +411,34 @@ input[type=text], select{
 
 .pg1img img{
     width: 16.66%;
+}
+
+@media screen and (max-width: 600px) {
+    .box3 {
+        height:2950px;
+    }
+    
+    .contant3 {
+        flex-wrap: wrap;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .contact2 {
+        font-size: 4vw;
+        width: 80%;
+        padding-left: 5%;
+    }
+
+    .contact2 h2 {
+        font-size:8vw;
+    }
+
+    .pg1img img{
+        width: 50%;
+    }
 }
 
 
