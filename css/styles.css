@@ -7,6 +7,10 @@
 
 }
 
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
 /*page 1 box 1*/
 .box1 {
     background-image: url(../image/it\ background2.jpg);
