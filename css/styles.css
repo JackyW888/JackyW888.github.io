@@ -38,6 +38,10 @@ body {
 
 }
 
+.logo a {
+    font-size: 30px;
+}
+
 .navigation {
     display:flex;
     justify-content: space-between;
