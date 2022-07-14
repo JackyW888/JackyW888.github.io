@@ -476,6 +476,10 @@ input[type=text], select{
     color:#ffffff;
 }
 
+.personalword2 h6 {
+    color: #EF6D58;
+}
+
 .personalimg {
     background-color: #EF6D58;
     border-radius: 50%;
@@ -510,7 +514,7 @@ hr {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .personal {
         display:block;
         text-align: center;
