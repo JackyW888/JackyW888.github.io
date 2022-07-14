@@ -437,7 +437,7 @@ input[type=text], select{
 
 @media screen and (max-width: 600px) {
     .box3 {
-        height:2950px;
+        height:2800px;
     }
     
     .contant3 {
@@ -521,17 +521,11 @@ hr {
     color:#ffffff;
 }
 
-.terms {
-    color:#ffffff;
-    display: flex;
-    width: 20%;
-    justify-content: space-between;
-}
-
 @media screen and (max-width: 600px) {
     .personal {
         display:block;
         text-align: center;
+        padding:80px; 
     }
 
     .box4 {
@@ -542,13 +536,10 @@ hr {
 
     }
 
-    .terms {
-        width: 100%;
-    }
-
     .copyright {
         text-align: center;
         border: #ffffff;
+        padding: 50px;
     }
 
     .container {

@@ -259,6 +259,7 @@ i {
     padding:80px 130px 80px 130px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .footer {
@@ -307,17 +308,11 @@ hr {
     color:#ffffff;
 }
 
-.terms {
-    color:#ffffff;
-    display: flex;
-    width: 20%;
-    justify-content: space-between;
-}
-
 @media screen and (max-width: 500px) {
     .personal {
         display:block;
         text-align: center;
+        padding:80px; 
     }
 
     .box4 {
@@ -328,13 +323,10 @@ hr {
 
     }
 
-    .terms {
-        width: 100%;
-    }
-
     .copyright {
         text-align: center;
         border: #ffffff;
+        padding: 50px;
     }
 
     .container {
