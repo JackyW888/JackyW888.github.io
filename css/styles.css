@@ -360,6 +360,20 @@ textarea {
     border-radius: 10px;
 }
 
+.submit {
+    float: right;
+    margin-top: 30px;
+}
+
+input[type=submit]{
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #EF6D58;
+    color:#ffffff;
+    border: none;
+}
+
 input[type=text], select{
     width: 100%;
     padding: 12px;
