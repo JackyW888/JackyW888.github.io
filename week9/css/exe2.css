@@ -1,1 +1,64 @@
-.
+td {
+    text-align: center;
+    width:120px;
+    height: 120px;
+}
+
+#table {
+    border-collapse: collapse;
+}
+
+.bigword {
+    font-size: 25px;
+}
+
+.smallword {
+    font-size: 12px;
+}
+
+.non-border {
+    border: none !important;
+    opacity: 0.5;
+}
+
+td:first-child {
+    border:1px solid  #7C64A6;
+    background-color: #D0C9E0;
+    color:#55378C;
+}
+
+td:nth-child(2) {
+    border:1px solid  #4AA5CE;
+    background-color: #BCDEEF;
+    color:#008ABF;
+}
+
+td:nth-child(3) {
+    border:1px solid  #4E85A1;
+    background-color: #B1D1E1;
+    color:#025B80;
+}
+
+td:nth-child(4) {
+    border:1px solid  #8F946D;
+    background-color: #D4D5C0;
+    color:#5E6623;
+}
+
+td:nth-child(5) {
+    border:1px solid  #BABF6C;
+    background-color: #E3E4CD;
+    color:#A2A84E;
+}
+
+td:nth-child(6) {
+    border:1px solid  #62C6C0;
+    background-color: #CCE9E7;
+    color:#01AAA2;
+}
+
+td:nth-child(7) {
+    border:1px solid  #C42A48;
+    background-color: #F1CFD5;
+    color:#B90129;
+}
