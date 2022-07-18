@@ -72,7 +72,7 @@
     cursor: pointer;
 }
 
-.aboutme {
+.workexp {
     color:#ffffff;
     font-size: 80px;
     text-align: center;
@@ -159,104 +159,7 @@ i {
     color: lightblue;
 }
 
-/*page2 contant 1*/
-
-.contant1 {
-    display: flex;
-    justify-content: center;
-    padding:100px;
-}
-
-.contant1 img {
-    border-radius: 100px;
-} 
-
-.jacky {
-    width: 50%;
-    color:#5C2000;
-    font-size: 1.5vw;
-    margin-left: 30%;
-}
-
-.jacky h5 {
-    color: #EF6D58;
-}
-
-.foodbox {
-    text-align: center;
-    background-image: url(../image/dotdot.png);
-    background-repeat:no-repeat;
-    padding:50px;
-    width: 60%;
-    background-position: right top;
-    color:#5C2000;
-}
-
-.food {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.foodimg {
-    padding:20px;
-    width: 50%;
-}
-
-.foodword {
-    font-weight: 900;
-    font-size: 2vw;
-    width: 45%;
-}
-
-@media screen and (max-width: 500px) {
-    .contant1 {
-        padding:0px;
-        margin-top: 30px;
-    }
-
-    .contant1 img {
-        border-radius: 50px;
-    }
-
-    .jacky {
-        margin-left: 0;
-        font-size: 3vw;
-        width: 95%;
-        padding: 10px;
-    }
-
-    .jacky img {
-        width: 95%;
-        padding:10px;
-        border-radius: 50px;
-    }
-
-    .foodbox {
-        font-size: 10vw;
-        text-align: left;
-        width: 70%;
-    }
-
-    .food {
-        display: block;
-    }
-
-    .foodword {
-        font-size: 10vw;
-        width: 95%;
-        padding:20px;
-    }
-
-    .foodimg {
-        width: 95%;
-    }
-
-    .foodimg img {
-        border-radius: 50px;
-    }
-    
-}
+/*page3 contant*/
 
 
 /*Footer*/
