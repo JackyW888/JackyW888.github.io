@@ -2,7 +2,7 @@
     margin-top: -8px;
     margin-left:-8px;
     margin-right:-8px;
-    height: 3700px;
+    height: 2900px;
     background-color: #C4D7E0;
 }
 
@@ -160,7 +160,38 @@ i {
 }
 
 /*page3 contant*/
+.page3 {
+    width: 65%;
+    margin: auto;
+    color:#5C2000;
+    font-size: 1.5vw;
+    margin-top: 70px;
+}
 
+.jobtitle {
+    color:#5c2000;
+    padding:50px;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.job img {
+    width: 50%;
+}
+
+.jobword {
+    color:#5c2000;
+    width: 45%;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+}
 
 /*Footer*/
 .personal {
