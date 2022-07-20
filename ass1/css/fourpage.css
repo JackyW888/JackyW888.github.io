@@ -1,10 +1,13 @@
 .container {
-    margin-top: -8px;
-    margin-left:-8px;
-    margin-right:-8px;
     height: 2300px;
     background-color: #C4D7E0;
 }
+
+body {
+    margin:auto;
+    font-family: 'Epilogue', sans-serif;
+}
+
 
 .box1 {
     background-color: #6E85B7;
@@ -44,6 +47,7 @@
 
 .navigation a {
     color:#ffffff;
+    text-decoration: none;
 }
 
 .navigation a:hover {
@@ -177,7 +181,6 @@ i {
 .workbox {
     margin:20px;
     position: relative;
-    border:solid;
 }
 
 .workbox img {
@@ -227,6 +230,27 @@ i {
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    .myweb {
+        font-size: 7vw;
+        padding:20px;
+    }
+
+    .workcontainer {
+        display: block;
+    }
+
+    .workbox img {
+        width: 100%;
+    }
+
+    .workcontainer {
+        padding:0;
+    }
+
+}
+
+
 /*Footer*/
 .personal {
     padding:80px 130px 80px 130px;
@@ -252,6 +276,11 @@ i {
 .personalword2 {
     font-weight: 900;
     color:#ffffff;
+}
+
+.personalword2 a {
+    color:#ffffff;
+    text-decoration: none;
 }
 
 .personalimg {

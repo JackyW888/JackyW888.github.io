@@ -1,10 +1,13 @@
 .container {
-    margin-top: -8px;
-    margin-left:-8px;
-    margin-right:-8px;
     height: 2900px;
     background-color: #C4D7E0;
 }
+
+body {
+    margin:auto;
+    font-family: 'Epilogue', sans-serif;
+}
+
 
 .box1 {
     background-color: #6E85B7;
@@ -44,6 +47,7 @@
 
 .navigation a {
     color:#ffffff;
+    text-decoration: none;
 }
 
 .navigation a:hover {
@@ -124,7 +128,6 @@
     .icon {
         display: none;
     }
-    
 }
 
 @media screen and (max-width: 600px) {
@@ -152,6 +155,10 @@
         display: block;
         margin-top: 20px;
         right: 40px;
+    }
+
+    .workexp {
+        font-size: 10vw;
     }
 }
 
@@ -193,6 +200,30 @@ i {
     align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+    .page3 {
+        font-size: 6vw;
+    }
+
+    .jobtitle {
+        font-size: 5vw;
+    }
+
+    .job {
+        display: block;
+    }
+
+    .job img {
+        width: 100%;
+    }
+
+    .jobword {
+        width: 100%;
+        font-size: 5vw;
+    }
+}
+
+
 /*Footer*/
 .personal {
     padding:80px 130px 80px 130px;
@@ -218,6 +249,11 @@ i {
 .personalword2 {
     font-weight: 900;
     color:#ffffff;
+}
+
+.personalword2 a {
+    color:#ffffff;
+    text-decoration: none;
 }
 
 .personalimg {

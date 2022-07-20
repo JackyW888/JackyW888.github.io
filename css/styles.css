@@ -50,6 +50,7 @@ body {
 
 .navigation a {
     color:#ffffff;
+    text-decoration: none;
 }
 
 .navigation a:hover {
