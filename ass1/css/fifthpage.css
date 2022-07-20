@@ -159,7 +159,59 @@ i {
     color: lightblue;
 }
 
-/*page3 contant*/
+/*page5 contant*/
+.form {
+    background-color: #ffffff;
+    width: 35%;
+    align-items:center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 5%;
+    padding: 2vw 4vw 5vw 2vw;
+    border-radius: 10px;
+}
+
+.map_form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.map_form div{
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.mobile_map{
+    display: none;
+}
+
+textarea {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {   
+
+    .map{
+        display: none;
+    }
+
+    .mobile_map{
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin: auto;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+}
+
 
 
 /*Footer*/
