@@ -1,9 +1,10 @@
 .container {
-    margin-top: -8px;
-    margin-left:-8px;
-    margin-right:-8px;
     height: 3700px;
     background-color: #C4D7E0;
+}
+
+body {
+    margin:auto;
 }
 
 .box1 {
@@ -245,7 +246,7 @@ i {
     .foodword {
         font-size: 10vw;
         width: 95%;
-        padding:20px;
+        margin:20px;
     }
 
     .foodimg {
@@ -317,7 +318,6 @@ hr {
     .personal {
         display:block;
         text-align: center;
-        padding:80px; 
     }
 
     .box4 {
@@ -344,5 +344,7 @@ hr {
 
     .personalicon {
         margin-top:90px;
+        align-items: center;
+        justify-content: center;
     }
 }
