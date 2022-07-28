@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Week 11</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2b9f28bdbf.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="image/logo.png" alt="" width="50" height="50">
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Category A</a></li>
+                            <li><a class="dropdown-item" href="#">Category B</a></li>
+                            <li><a class="dropdown-item" href="#">Category C</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="image/pic1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>FHD Background Picture</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
+                        data-bs-title="Popover title"
+                        data-bs-content="And here's some amazing content. It's very engaging. Right?"
+                        aria-describedby="popover792382">Click to toggle popover</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="image/pic3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="This top tooltip is themed via CSS variables.">
+                        <i class="fa-solid fa-hat-wizard" wid></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="d-flex m-5 h-100">
+        <div class="col-6 align-self-center">
+            <h1>Modal Box</h1>
+            <p>Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+              
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                      Collapsible Group Item #1
+                    </a>
+                  </div>
+                  <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                    Collapsible Group Item #2
+                  </a>
+                  </div>
+                  <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                      Collapsible Group Item #3
+                    </a>
+                  </div>
+                  <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                      <a class="btn" data-bs-toggle="collapse" href="#collapseFour">
+                        Collapsible Group Item #4
+                      </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                      <a class="btn" data-bs-toggle="collapse" href="#collapseFive">
+                        Collapsible Group Item #5
+                      </a>
+                    </div>
+                    <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="d-flex bg-secondary justify-content-center align-items-center p-2">
+        <div class="col">
+            <img  src="image/logo.png" alt="">
+        </div>
+        <div class="col text-white">
+            <a class="nav-link" href="#"><p>(+60) 166756070</p></a>
+            <a class="text-white text-decoration-none" href="mailto:wongjingyi0930@e.newera.edu.my"><p>wongjingyi0930@e.newera.edu.my</p></a>
+            <a class="text-white text-decoration-none" href="https://www.google.com/maps/place/1,+7,+Jalan+Berjaya+Baru,+Taman+Berjaya+Baru,+43000+Kajang,+Selangor/@2.9848538,101.7802974,17z/data=!3m1!4b1!4m5!3m4!1s0x31cdcb9a41adbe3d:0xf873edaeed9229f1!8m2!3d2.9848538!4d101.7824861"><p>No 1,, Jalan Berjaya Baru 7, Taman Berjaya Baru, 43000, Kajang, Selangor</p></a>
+        </div>
+
+        <div class="p-4 my-2 align-items-center">
+            <a href="https://github.com/wongjingyi"><i class="fa-brands fa-github link-light" style="font-size: 3.5vw;"></i></a>
+        </div>
+        <div class="p-4 my-2 align-items-center">
+            <a href="https://www.facebook.com/profile.php?id=100010637223843"><i class="fa-brands fa-facebook link-light" style="font-size: 3.5vw;"></i></a>
+        </div>
+        <div class="p-4 my-2 align-items-center">
+            <a href="https://www.instagram.com/invites/contact/?i=1hki0rl82vvsz&utm_content=3zfywkk"><i class="fa-brands fa-instagram link-light" style="font-size: 3.5vw;"></i></a>
+        </div>
+    </div>
+
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
+        
+</body>
+
+</html>
