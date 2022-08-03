@@ -176,15 +176,27 @@ body{
 
 @media screen and (max-width: 720px){
     .mlycalture {
-        height:25vh;
+        height:20vh;
         margin-top:10vh;
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 560px){
     .mlycalture {
         height:15vh;
         margin-top:8vh;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .mlycalture {
+        height:10vh;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .mlycalture {
+        height:5vh;
     }
 }
 
@@ -255,7 +267,7 @@ body{
     }
     .mlylanguage2 {
         bottom:40px;
-        right:180px;
+        right:150px;
     }
 }
 
@@ -266,28 +278,33 @@ body{
     }
     .mlylanguage2 {
         bottom:20px;
-        right:130px;
+        right:100px;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 630px){
     .mlylanguage1 {
         top:10px;
         right:40px;
     }
     .mlylanguage2 {
         bottom:10px;
-        right:80px;
+        right:60px;
     }
+}
+
+@media screen and (max-width: 511px){
 }
 
 @media screen and (max-width: 321px){
     .mlylanguage1 {
         font-size: 10px;
     }
-    .fs-2{
-        font-size: calc(1.2rem + .2vw)!important;
+    
+    .mlylanguage1 .fs-2 {
+        font-size: calc(0.5rem + .1vw)!important;
     }
+
     .mlylanguage2 {
         bottom:10px;
         right:80px;
@@ -319,7 +336,7 @@ body{
     background-repeat: no-repeat;
     display:flex;
     justify-content: space-between;
-    margin:40px;
+    padding:40px;
     text-align: center;
 }
 
@@ -327,7 +344,6 @@ body{
     display: block;
     width: 28%;
     border:solid;
-    max-height: max-content;
 }
 
 .mlycny {
@@ -360,7 +376,52 @@ body{
     margin-top:40px;
 }
 
+.mlyfestivalbox1 img{
+    height: 250px;
+}
+
+.mlyfestivalbox2 img{
+    height: 606px;
+}
+
+.mlyfestivalbox3 img{
+    height: 250px;
+}
+
 @media screen and (max-width: 1250px){
+    .mlyfestivalbox1 img{
+        height: 180px;
+    }
+    
+    .mlyfestivalbox2 img{
+        height: 470px;
+    }
+    
+    .mlyfestivalbox3 img{
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 999px){
+    .mlyfestivalbox1 img{
+        height: 150px;
+    }
+    
+    .mlyfestivalbox2 img{
+        height: 408px;
+    }
+    
+    .mlyfestivalbox3 img{
+        height: 150px;
+    }
+
+    .fs-2{
+        font-size: calc(1.3rem + .2vw)!important;
+    }
+}
+
+@media screen and (max-width: 850px){
     .mlyfestivalbox {
         flex-wrap: wrap;
     }
@@ -375,8 +436,85 @@ body{
         width: 100%;
         margin-top: 20px;
     }
+    .mlyfestivalbox1 img{
+        height: 200px;
+    }
+    
+    .mlyfestivalbox2 img{
+        height: 495px;
+    }
+    
+    .mlyfestivalbox3 img{
+        height: 400px;
+    }
 
+}
 
+@media screen and (max-width: 630px){
+    .mlyfestivalbox1 img{
+        height: 150px;
+    }
+    
+    .mlyfestivalbox2 img{
+        height: 395px;
+    }
+    
+    .mlyfestivalbox3 img{
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 510px){
+    .mlyfestivalbox1 img{
+        height: 120px;
+    }
+    
+    .mlyfestivalbox2 img{
+        height: 333px;
+    }
+    
+    .mlyfestivalbox3 img{
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .mlyfestivalbox1 {
+        width: 100%;
+    }
+    .mlyfestivalbox2 {
+        width: 100%;
+    }
+    .mlyfestivalbox1 img{
+        height: 200px;
+    }
+    
+    .mlyfestivalbox2 img{
+        height: 400px;
+    }
+    
+    .mlyfestivalbox3 img{
+        height: 200px;
+    }
+    .mlyfestivalbox {
+        padding:10px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .mlyfestivalbox1 img{
+        height: 170px;
+    }
+    
+    .mlyfestivalbox2 img{
+        height: 333px;
+    }
+    
+    .mlyfestivalbox3 img{
+        height: 170px;
+    }
 }
 
 /*malaysia traditional food*/
@@ -406,4 +544,42 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height:300px;
+}
+
+@media screen and (max-width: 800px) {
+    .mlyfood1 img {
+        height: 250px;
+    }
+
+    .mlyfood2 img {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mlyfood1 img {
+        height: 180px;
+    }
+
+    .mlyfood2 img {
+        height: 690px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .mlyfood1 {
+        width: 100%;
+    }
+
+    .mlyfood2 {
+        width: 100%;
+    }
+
+    .mlyfood1 img {
+        height: auto;
+    }
+
+    .mlyfood2 img {
+        height: auto;
+    }
 }
