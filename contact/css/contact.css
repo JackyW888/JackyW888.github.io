@@ -218,3 +218,51 @@ textarea {
     }
 
 }
+
+
+.containerbox {
+    background-color: #D6E6F2;
+    display: flex;
+    justify-content: center;
+}
+
+.contactbox {
+    width: 95%;
+    justify-content:space-between;
+    display: flex;
+}
+
+.contactboximg {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.contactbox1 {
+    border:solid #A4C5EA 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin:50px;
+    padding:20px;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .contactbox {
+        display: block;
+    }
+
+    .contactbox1 {
+        width: 95%;
+        padding:20px;
+        margin: 20px;
+    }
+
+    .contactboximg {
+        width: 100%;
+        margin: 10px;
+    }
+}
