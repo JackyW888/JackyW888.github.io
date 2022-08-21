@@ -1,5 +1,9 @@
+body {
+    max-width: 1900px;
+}
+
 .container {
-    height: 2900px;
+    height: auto;
     background-color: #C4D7E0;
 }
 
